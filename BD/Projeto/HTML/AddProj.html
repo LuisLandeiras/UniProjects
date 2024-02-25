@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>GestaoProjetos</title>
+    <link rel="stylesheet" href="../CSS/Nav.css">
+    <link rel="stylesheet" href="../CSS/Body.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="AddProg.html">Criar Programa</a></li>
+        <li><a href="AddEnt.html">Criar Entidade</a></li>
+        <li><a href="Finan.html">Financiamentos</a></li>
+        <li><a href="AltProj.html">Alterar Projeto</a></li>
+        <li><a href="Estatistica.html">Estatistica</a></li>
+      </ul>
+    </nav>
+    <h3>Criar Projeto</h3>
+    <form action="">
+      Título do projeto
+      <input type="text" id="TProj"> <br> <br>
+      Nome do Projeto
+      <input type="text" id="NomeProj"> <br> <br>
+      Descricão <br>
+      <textarea cols="30" rows="10" id="DescriProj"></textarea> <br> <br>
+      
+      <label for="estado">Estado: </label>
+      <select id="estado">
+        <option value="Aprovado">Aprovado</option>
+        <option value="Cancelado">Cancelado</option>
+        <option value="Concluido">Concluído</option>
+        <option value="EmCurso">Em curso</option>
+        <option value="Encerrado">Encerrado</option>
+        <option value="Renovado">Renovado</option>
+        <option value="Submissao">Submissão</option>
+      </select>
+
+      <label for="Lingua">Lingua: </label>
+      <select id="Lingua">
+        <option value="Portugues">Português</option>
+        <option value="Ingles">Inglês</option>
+      </select> <br> <br>
+
+      <label for="dinicio">Data de início</label>
+      <input type="date" id="dinicio">
+      <label for="dfim">Data final</label>
+      <input type="date" id="dfim"> <br> <br>
+    
+      <div id="Area_Key">
+        <input type="button" id="CreateKey" value="Cria KeyWord">
+      </div>
+      <br>
+
+      <label for="URL">Url</label> 
+      <input type="text" id="URL"> 
+      <label for="DOI">Doi</label> 
+      <input type="text" id="DOI"> <br> <br>
+
+      <h4>Dominio do Projeto</h4>
+      <div id="Area_Dom"></div>
+      <br>
+      <h4>Areas do Projeto</h4>
+      <div id="Area_Area"></div>
+      <br>
+      <h4>Investigadores a Participar</h4> 
+      <div id="Area_Inves"></div>
+      <br>
+      <h4>Funcão dos Investigadores</h4>
+      <div id="Area_Funcao"></div>
+      <br>
+  
+      <input type="button" id="AddProjSub" value="Adicionar">
+    </form>
+  </body>
+  <script src="../AddProj.js"></script>
+</html>

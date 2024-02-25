@@ -1,0 +1,15 @@
+nav{
+    border-bottom: solid 1px black;
+    margin-bottom: 1%;
+}
+li{
+    display: inline;
+    padding: 1%
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:blueviolet
+}

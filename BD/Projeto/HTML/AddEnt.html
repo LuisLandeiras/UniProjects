@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>GestaoProjetos</title>
+    <link rel="stylesheet" href="../CSS/Nav.css">
+    <link rel="stylesheet" href="../CSS/Body.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="AddProg.html">Criar Programa</a></li>
+        <li><a href="AddProj.html">Criar Projeto</a></li>
+        <li><a href="Finan.html">Financiamentos</a></li>
+        <li><a href="AltProj.html">Alterar Projeto</a></li>
+        <li><a href="Estatistica.html">Estatistica</a></li>         
+      </ul>
+    </nav>
+    <form action="">
+      <h3>Entidade</h3>
+      Designação 
+      <input type="text" id="EntDesig">
+      Sigla
+      <input type="text" id="EntSigla"> <br> <br>
+      Morada
+      <input type="text" id="EntMorada">
+      País
+      <input type="text" id="EntPais"> <br> <br>
+      URL
+      <input type="text" id="EntURL"> <br> <br>
+      
+      <button id="EntSub" type="button">Criar</button>
+    </form>
+
+    <form action="">
+      <h3>Ponto de Contacto</h3>
+      Entidade
+      <div id="Area_Ent"></div> <br>
+      Projeto <br>
+      <div id="Area_Proj"></div> <br> 
+      Nome
+      <input type="text" id="PCNome"> <br> <br>
+      Descrição <br>
+      <textarea cols="30" rows="10" id="PCDes"></textarea> <br> 
+      Email
+      <input type="email" id="PCEmail">
+      Tel
+      <input type="number" id="PCTel"> <br> <br>
+      
+      <input type="button" id="PCSub" value="Adicionar">
+    </form>
+  </body>
+  <script src="../AddEnt.js"></script>
+</html>

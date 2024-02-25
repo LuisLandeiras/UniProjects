@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="../CSS/Nav.css">
+    <link rel="stylesheet" href="../CSS/Body.css">
+    <title>GestaoProjetos</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="AddProg.html">Criar Programa</a></li>
+        <li><a href="AddEnt.html">Criar Entidade</a></li>
+        <li><a href="AddProj.html">Criar Projeto</a></li>
+        <li><a href="AltProj.html">Alterar Projeto</a></li>
+        <li><a href="Estatistica.html">Estatistica</a></li>
+      </ul>
+    </nav>
+    <form action="">
+      <h3>Financiamento Independente</h3>
+      Entidade a contribuir
+      <div id="Area_EntI"></div> <br>
+      Projeto
+      <div id="Area_ProjI"></div> <br>
+      Valor
+      <input type="number" id="ValorI"> <br> <br>
+      
+      <input type="button" id="FISub" value="Adicionar">
+    </form> <br>
+    <form action="">
+      <h3>Financiamento Programa</h3>
+      Entidade a contribuir
+      <div id="Area_EntP"></div> <br>
+      Programa
+      <div id="Area_ProgP"></div> <br>
+      Projeto 
+      <div id="Area_ProjP"></div> <br>
+      Valor
+      <input type="number" id="ValorP"> <br> <br>
+
+      <input type="button" id="FPSub" value="Adicionar">
+    </form>
+  </body>
+  <Script src="../Finan.js"></Script>
+</html>
