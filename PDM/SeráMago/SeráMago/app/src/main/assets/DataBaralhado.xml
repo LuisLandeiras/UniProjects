@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recouse>
+    <frase>
+        <original>Sentir é estar distraído.</original> <!--Funciona-->
+        <autor>Poemas de Alberto Caeiro - Fernando Pessoa</autor>
+    </frase>
+    <frase>
+        <original>Penso, logo existo.</original> <!--Funciona-->
+        <autor>René Descartes</autor>
+    </frase>
+    <frase>
+        <original>Só sei que nada sei.</original> <!--Funciona-->
+        <autor>Sócrates</autor>
+    </frase>
+    <frase>
+        <original>Deus está morto.</original> <!--Funciona-->
+        <autor>Friedrich Nietzsche</autor>
+    </frase>
+    <frase>
+        <original>Você devia ser beijada todo dia, toda hora, todo minuto.</original> <!--Funciona-->
+        <autor>Um Homem de Sorte – Nicholas Sparks</autor>
+    </frase>
+    <frase>
+        <original>Uma vida não examinada não merece ser vivida.</original> <!--Funciona-->
+        <autor>Platão</autor>
+    </frase>
+    <frase>
+        <original>A liberdade consiste em fazer o que se deseja.</original> <!--Funciona-->
+        <autor>John Stuart Mill</autor>
+    </frase>
+    <frase>
+        <original>O verdadeiro amor nunca se desgasta.</original> <!--Funciona-->
+        <autor>O Pequeno Príncipe – Antoine de Saint-Exupéry</autor>
+    </frase>
+    <frase>
+        <original>Quem disse que você não pode ser feliz?</original> <!--Funciona-->
+        <autor>O lado bom da vida – Matthew Quick</autor>
+    </frase>
+    <frase>
+        <original>Praticando ser gentil em vez de ter razão.</original> <!--Funciona-->
+        <autor>O lado bom da vida – Matthew Quick</autor>
+    </frase>
+    <frase>
+        <original>As pessoas precisam cuidar das próprias vidas.</original> <!--Funciona-->
+        <autor>Para Todos os Rapazes que já Amei – Jenny Han</autor>
+    </frase>
+    <frase>
+        <original>Ser feliz é uma responsabilidade muito grande.</original> <!--Funciona-->
+        <autor>Um sopro de vida – Clarice Lispector</autor>
+    </frase>
+    <frase>
+        <original>A única verdade que realmente sei: os seres humanos me assombram.</original> <!--Funciona-->
+        <autor>A menina que roubava livros – Markus Zusak</autor>
+    </frase>
+    <frase>
+        <original>Até mesmo a menor das pessoas pode mudar o rumo do futuro.</original> <!--Funciona-->
+        <autor>O SENHOR DOS ANÉIS - J.R.R. TOLKIEN</autor>
+    </frase>
+    <frase>
+        <original>A necessidade transforma um homem honesto num velhaco.</original>
+        <autor>ROBINSON CRUSOÉ - DANIEL DEFOE</autor>
+    </frase>
+    <frase>
+        <original>Apenas viva bem. Apenas viva.</original>
+        <autor>Como eu era antes de você - Jojo Moyes</autor>
+    </frase>
+    <frase>
+        <original>O amor se aprende.</original> <!--Funciona-->
+        <autor>Crônica de Uma Morte Anunciada - Gabriel García Márquez</autor>
+    </frase>
+    <frase>
+        <original>Somos poeira estelar.</original> <!--Funciona-->
+        <autor>O Mundo de Sofia - Jostein Gaarder</autor>
+    </frase>
+    <frase>
+        <original>Pessoas que evitam o fracasso, evitam o sucesso.</original> <!--Funciona-->
+        <autor>Pai Rico, Pai Pobre - Robert Kiyosaki e Sharon Lechter</autor>
+    </frase>
+    <frase>
+        <original>Por você, faria isso mil vezes.</original> <!--Funciona-->
+        <autor>O Caçador de Pipas - Khaled Hosseini</autor>
+    </frase>
+</recouse>

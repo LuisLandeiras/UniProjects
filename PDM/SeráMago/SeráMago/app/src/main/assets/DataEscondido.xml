@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recouse>
+    <frase>
+        <original>Alguns infinitos são maiores que outros.</original> <!--Funciona-->
+        <palavra>infinitos</palavra>
+        <autor>A Culpa é das Estrelas – John Green</autor>
+    </frase>
+    <frase>
+        <original>Amor não é coisa que se possa pedir a alguém.</original> <!--Funciona-->
+        <palavra>Amor</palavra>
+        <autor>O Diário de Anne Frank – Anne Frank</autor>
+    </frase>
+    <frase>
+        <original>Quem comete uma injustiça é sempre mais infeliz do que o injustiçado.</original> <!--Funciona-->
+        <palavra>infeliz</palavra>
+        <autor>Platão</autor>
+    </frase>
+    <frase>
+        <original>Prefiro ser um homem de paradoxos que um homem de preconceitos.</original> <!--Funciona-->
+        <palavra>paradoxos</palavra>
+        <autor>Jean-Jacques Rousseau</autor>
+    </frase>
+    <frase>
+        <original>As leis da natureza são apenas os pensamentos matemáticos de Deus.</original> <!--Funciona-->
+        <palavra>natureza</palavra>
+        <autor>Euclides de Alexandria</autor>
+    </frase>
+    <frase>
+        <original>A ciência é o que você sabe. A filosofia é o que você não sabe.</original> <!--Funciona-->
+        <palavra>filosofia</palavra>
+        <autor>Bertrand Russell</autor>
+    </frase>
+    <frase>
+        <original>Acredite em milagres , mas não dependa deles.</original> <!--Funciona-->
+        <palavra>milagres</palavra>
+        <autor>Immanuel Kant</autor>
+    </frase>
+    <frase>
+        <original>Palavras são, na minha não tão humilde opinião, nossa inesgotável fonte de magia.</original> <!--Funciona-->
+        <palavra>inesgotável</palavra>
+        <autor>Harry Potter e as Relíquias da Morte, J.K. Rowling</autor>
+    </frase>
+    <frase>
+        <original>O amor não força nada, ao contrário , ele abre caminho.</original> <!--Funciona-->
+        <palavra>contrário</palavra>
+        <autor>A Cabana, William P. Young</autor>
+    </frase>
+    <frase>
+        <original>Tudo depende do tipo de lente que você utiliza para ver as coisas.</original> <!--Funciona-->
+        <palavra>lente</palavra>
+        <autor>O Mundo de Sofia - Jostein Gaarder</autor>
+    </frase>
+    <frase>
+        <original>Você está livre para amar sem qualquer obrigação .</original> <!--Funciona-->
+        <palavra>obrigação</palavra>
+        <autor>A Cabana, William P. Young</autor>
+    </frase>
+    <frase>
+        <original>Esse é o problema da dor. Ela precisa ser sentida.</original> <!--Funciona-->
+        <palavra>problema</palavra>
+        <autor>A Culpa é das Estrelas, John Green</autor>
+    </frase>
+    <frase>
+        <original>Há amores que só podem viver em seu coração, não em sua vida.</original> <!--Funciona-->
+        <palavra>amores</palavra>
+        <autor>Como eu era antes de você, Jojo Moyes</autor>
+    </frase>
+    <frase>
+        <original>Há coisas que são preciosas por não durarem.</original> <!--Funciona-->
+        <palavra>preciosas</palavra>
+        <autor>Retrato de Dorian Gray, Oscar Wilde</autor>
+    </frase>
+    <frase>
+        <original>Um grande amor vale anos de espera.</original> <!--Funciona-->
+        <palavra>grande</palavra>
+        <autor>Bem Casados, Nora Roberts</autor>
+    </frase>
+    <frase>
+        <original>Quando acordei hoje de manhã, eu sabia quem eu era, mas acho que já mudei muitas vezes desde então.</original> <!--Funciona-->
+        <palavra>sabia</palavra>
+        <autor>Alice no País das maravilhas, Lewis Carroll</autor>
+    </frase>
+    <frase>
+        <original>Bom, às vezes a vida é dura, mas eu tenho muita coisa para agradecer .</original> <!--Funciona-->
+        <palavra>agradecer</palavra>
+        <autor>William P. Young</autor>
+    </frase>
+    <frase>
+        <original>Não se preocupe. As melhores pessoas sempre carregam alguma cicatriz .</original> <!--Funciona-->
+        <palavra>cicatriz</palavra>
+        <autor>A escolha</autor>
+    </frase>
+    <frase>
+        <original>Quem escreverá a história do que poderia ter sido?</original> <!--Funciona-->
+        <palavra>história</palavra>
+        <autor>Fernando Pessoa</autor>
+    </frase>
+    <frase>
+        <original>Ela escondia com palavras o que eu publicava com silêncio.</original> <!--Funciona-->
+        <palavra>escondia</palavra>
+        <autor>Machado de Assis</autor>
+    </frase>
+</recouse>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SeráMago</string>
+    <string name="STR_Jogar">Jogar</string>
+    <string name="STR_Criar">Criar</string>
+    <string name="STR_Normal">Baralhado</string>
+    <string name="STR_Escondido">Escondido</string>
+    <string name="STR_10">10</string>
+    <string name="STR_20">20</string>
+    <string name="STR_Share">Share</string>
+    <string name="STR_Seguinte">Seguinte</string>
+    <string name="STR_15">15</string>
+    <string name="STR_5">5</string>
+</resources>
