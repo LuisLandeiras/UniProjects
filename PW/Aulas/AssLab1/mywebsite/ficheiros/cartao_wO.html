@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <style>
+            body {
+            font-family: Calibri;
+            }
+
+            h1 {
+                font-family: Calibri;
+                color: #ff3399;
+            }
+
+            h4 {
+                font-family: Calibri;
+                color: #ff3399;
+            }
+            img{
+                height: 100px;
+                width: 500px;
+            }
+            form{
+                width: 80%;
+            }
+            div{
+                text-align: right;
+            }
+        </style>
+        <meta charset="utf-8">
+    <title>Cartão WTF</title>
+    </head>
+    <body>
+        <h1>Adesão Cartão WTF</h1>
+        <form action="">
+            <fieldset>
+                <legend><b>Dados pessoais:</b></legend>
+                Nome:
+                <input type="text" size="100"> <br> <br>
+                Sexo:
+                <input type="radio" name="genero">
+                <label for="genero"> Masculino</label>
+                <input type="radio" name="genero">
+                <label for="genero">Feminino</label> <br> <br>
+                Data de nascimento: 
+                <input type="date" name="nascimento"> <br> <br>
+                Estado civil: 
+                <select name="" id="">
+                    <option value="" disabled selected>Escolha uma opção</option>
+                    <option value="">Casado</option>
+                    <option value="">Solteiro</option>
+                    <option value="">Divorciado</option>
+                    <option value="">Viúvo</option>
+                </select>
+                &nbsp;
+                Nr de filhos:
+                <input type="number">
+            </fieldset>
+            <br> <br>
+            <fieldset>
+                <legend><b>Contactos:</b></legend>
+                Codigo Postal:
+                <input type="tel" maxlength="4" style="width: 30px;" placeholder="0000" required minlength="4">
+                -
+                <input type="tel" maxlength="3" style="width:  25px;" placeholder="000" required minlength="3"> <br> <br>
+                Morada: <br>
+                <textarea name="" rows="5" cols="100"></textarea> <br> <br>
+                Email:
+                <input type="email" placeholder="ex:alguem@gmail.com"> <br> <br>
+                Password:
+                <input type="password">
+            </fieldset>
+            <div>
+                <small>
+                    Pretendo ser contactado através de:
+                    <input type="checkbox" name="email">
+                    <label for="email">Email</label>
+                    <input type="checkbox" name="telefone">
+                    <label for="telefone">Telemóvel</label>
+                    <input type="checkbox" name="correio">
+                    <label for="correio">Correio</label>
+                </small> <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">   
+            </div>
+        </form>    
+    </body>
+    
+</html>

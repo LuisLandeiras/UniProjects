@@ -1,0 +1,75 @@
+body{
+    font-family: Times;
+    font-size: 14px;
+    color: #222;
+    margin: auto;
+    width: 60%;
+}
+header{
+    background-color: #A60015;
+    color: whitesmoke;
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial;
+}
+article{
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px gray solid;
+}
+article p{
+    font-style: italic;
+    text-align: justify;
+    margin-left: 55%;
+}
+article div p{
+    font-style: normal;
+}
+article a{
+    color: red; 
+}
+h2{
+    margin-left: 55%;
+}
+img{
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+.label{
+    text-transform: uppercase;
+    padding: 1px 4px 2px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    color: red; 
+    font-style: normal;
+}
+.label.actual{
+    background-color: #A60015;
+    color: white;
+}
+.autor{
+    color: #444;
+    font-size: 11px;
+    font-family: Helvetica;
+}
+.principal h2{
+    margin-left: 0%;
+}
+.principal img{
+    width: 100%;
+}
+.principal p{
+    text-align: left;
+    margin-left: auto;
+}
+.instagram{
+    color: blue;
+}
+#scandal{
+    background-color: gainsboro;
+}

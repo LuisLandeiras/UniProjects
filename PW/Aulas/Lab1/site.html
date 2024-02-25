@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <style>
+            body{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            input.input1{
+                width: 40%;
+                line-height: 30px;
+            }
+            textarea.input1{
+                width: 40%;
+                line-height: 15px;
+            }
+            select.input1{
+                width: 40%;
+                line-height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="header.jpeg" style="width: 100%;">
+        <div style="background-color: rgb(87, 87, 87); line-height: 25px;">
+            <ul>
+                <li style="display:inline; list-style-type: none; text-decoration: none; color: white;">Aprender HTML</li>
+                <li style="display:inline; list-style-type: none; text-decoration: none; color: white;">&emsp;|&emsp;Tutoriais</li>
+                <li style="display:inline; list-style-type: none; text-decoration: none; color: white;">&emsp;|&emsp;Dicas</li>
+                <li style="display:inline; list-style-type: none; text-decoration: none; color: white;">&emsp;|&emsp;Contacte-nos</li>
+            </ul>
+        </div> 
+        <table >
+            <tr>
+                <td><h3>Aprender HTML</h3>
+                    <div style="display: flex; text-align: justify;">
+                        <img src="tabela.jpeg">
+                    <p>Desenvolvimento de uma página HTML<br>Siga as dicas abaixo indicadas para a construção do website</p>
+                    </div>
+                </td>
+                <td rowspan="2">
+                    <h3>Tutoriais de HTML</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9-QavhHyfkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/y3UH2gAhwPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 70%">
+                    <h2>Dicas</h2>
+                    <ul>
+                        <li>A imagem do header foi criada em <a href="https://www.canvas.com">https://www.canvas.com</a></li>
+                        <li>Podem obter uma palete de cores através de aplicações online, como por exemplo <a href="https://www.toptal.com/designers/colourcode">https://www.toptal.com/designers/colourcode</a></li>
+                        <li>O Menu deverá ser feito através de uma lista não ordenada. Para ter o aspeto pretendido devem atribuir os seguintes estilos</li>
+                            <ul>
+                                <li>dispal: inline</li>
+                                <li>list-style-type: none</li>
+                                <li>texto-decoration: none</li>
+                            </ul>
+                        <li>Aprender HTML / Dicas e os Tutoriais deverão estar inseridos em uma tabela 2x2. A coluna Dicas deverá ocupar 70% da largura da página. A coluna Tutoriais deve ocupar 2 linhas.</li>
+                        <li>Os Tutoriais são iframes com vídeos do youtube.</li>
+                        <li>O formulário de contacto está inserido num div. Deverá atribuir ao div os seguintes estilos:</li>
+                            <ul>
+                                <li>background-color: whitesmoke</li>
+                                <li>padding-left: 100</li>
+                                <li>padding-top: 30</li>
+                            </ul>
+                        <li>Os inputs do formulário deverão ter uma class associada que tenha a seguinte configuração:</li>
+                            <ul>
+                                <li>width: 40%</li>
+                                <li>line-height: 30px</li>
+                            </ul>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div style="padding-left: 100px; padding-top: 30px; background-color: whitesmoke; line-height: 35px;">
+            <form action="">
+                Nome <br>
+                <input class="input1" type="text" placeholder="Indique-nos o seu nome"> <br>
+                Email <br>
+                <input class="input1" type="email" placeholder="Indique-nos o seu Emial"> <br>
+                Telemóvel <br>
+                <input class="input1" type="tel" placeholder="Indique-nos o seu contacto"> <br>
+                Mensagem <br>
+                <textarea class="input1" cols="30" rows="10" placeholder="Indique-nos a sua dúvida"></textarea> <br>
+                Qual a razão do seu contacto? <br>
+                <select class="input1">
+                    <option value="Pedido de Informação">Pedido de Informação</option>
+                    <option value="Rembolso">Reembolso</option>
+                </select> <br>
+                Como prefere ser contactado: <br>
+                <input type="checkbox" name="Telemóvel">Telemóvel <br>
+                <input type="checkbox" name="Email">Email <br>
+                Data de Contacto
+                <input type="datetime-local" name="Data"> <br>
+                <input type="submit">
+                <input type="reset" value="Cancelar">            
+            </form>
+        </div>
+        <footer style="background-color: black; color: white; width: 100%; height: 40px; display: table; vertical-align: middle; text-align: center;"> 
+            Copyright © 2017
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.topdiv{
+    background-image: url(https://cdn.pixabay.com/photo/2014/05/03/00/42/vw-camper-336606_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    color: white;  
+    padding: 50px;  
+}
+.divdestination{
+    padding: 50px;
+}
+.linkdestination{
+    background-color: darkturquoise;
+    color: white;
+    border: 2px solid darkturquoise;
+    text-decoration: none;
+    padding: 10px;
+}
+.linkdestination:hover{
+    background-color: white;
+    color: darkturquoise;
+    border: 2px solid darkturquoise;
+    text-decoration: none;
+    padding: 10px;
+}
+div p{
+    display: flex;
+    color: rgb(21, 27, 18);
+    background-color: rgb(211, 253, 239);
+    margin-top: 0px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    padding: 15px;
+}
+.footer p{
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}

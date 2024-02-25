@@ -1,0 +1,134 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#exterior{
+    width: 90%;
+    margin: auto;
+}
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+}
+#corpo{
+    display: flex;
+    flex-direction: row;
+}
+div a{
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+div a:hover{
+    color: orange;
+}
+#cabecalho{
+    padding: 0.5em;
+    color: #C60;
+}
+#nav{
+    background-color: #4286f4;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0;
+    padding-right: 0;
+}
+#menu{
+    padding: 0;
+    font-size: 0.9em;
+    width: 22%;
+}
+#fav{
+    padding: 5px;
+    margin-top: 1em;
+    background-color: #F8F8F8;
+    border: 1px solid #C5C5C5;
+}
+#fav h3{
+    color: #036;
+}
+#fav p{
+    color: #999;
+}
+#fav a{
+    color: blue;
+    text-decoration: underline;
+}
+#grupos{
+
+    padding: 5px;
+    margin-top: 0.5em;
+    background-color: #fff6cd;
+    border: 1px dashed;
+    color: #C60;
+}
+#grupos h3{
+    color: #036;
+}
+#grupos p a{
+    color: #C60;
+    text-decoration: underline;
+}
+#grupos p a i{
+    color: #000;
+    font-size: 16px;
+}
+#main{
+    margin-left: 2%;
+    width: 73%;
+}
+#main article{
+    margin-bottom: 1em;
+}
+#main article h2{
+    color: #C60;
+}
+#main p{
+    text-align: justify;
+}
+#main a{
+    color: #C60;
+    text-decoration: underline;
+}
+#notmain{
+    margin-left: 20px;
+    width: 22%;
+}
+#notmain h2{
+    background-color: #DB905C;
+    padding: 0.2em;
+    font-size: 1em;
+    color: #FFF;
+}
+#notmain p{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#notmain a{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    margin-top: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.2em;
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+    background-color: #F8F8F8;
+    font-size: 0.8em;
+    text-align: right;
+}

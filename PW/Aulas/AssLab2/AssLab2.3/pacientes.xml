@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital>
+    <paciente>
+        <identificacao>1</identificacao>
+        <sexo>M</sexo>
+        <nome>Paulo António</nome>
+        <ano>2001</ano>
+        <bi>12435679</bi>
+        <contribuinte>242656890</contribuinte>
+        <SistemDeSaude>ADSE</SistemDeSaude>
+    </paciente>
+    <paciente>
+        <identificacao>2</identificacao>
+        <sexo>M</sexo>
+        <nome>José Ricardo</nome>
+        <ano>1988</ano>
+        <bi>12345619</bi>
+        <contribuinte>182746398</contribuinte>
+        <SistemDeSaude>Multicare</SistemDeSaude>
+    </paciente>
+    <paciente>
+        <identificacao>3</identificacao>
+        <sexo>F</sexo>
+        <nome>Maria Rita</nome>
+        <ano>1991</ano>
+        <bi>23516787</bi>
+        <contribuinte>198787627</contribuinte>
+        <SistemDeSaude>Medicare</SistemDeSaude>
+    </paciente>
+    <paciente>
+        <identificacao>4</identificacao>
+        <sexo>M</sexo>
+        <nome>Miguel Antunes</nome>
+        <ano>2007</ano>
+        <bi>29878167</bi>
+        <contribuinte>298716726</contribuinte>
+        <SistemDeSaude>Multicare</SistemDeSaude>
+    </paciente>
+    <paciente>
+        <identificacao>5</identificacao>
+        <sexo>F</sexo>
+        <nome>Daniela Relvão</nome>
+        <ano>1976</ano>
+        <bi>24509878</bi>
+        <contribuinte>287671656</contribuinte>
+        <SistemDeSaude>ADSE</SistemDeSaude>
+    </paciente>
+    <paciente>
+        <identificacao>6</identificacao>
+        <sexo>F</sexo>
+        <nome>Juliana Mendes</nome>
+        <ano>2010</ano>
+        <bi>39817623</bi>
+        <contribuinte>187676543</contribuinte>
+        <SistemDeSaude>Médis</SistemDeSaude>
+    </paciente>
+</hospital>

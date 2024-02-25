@@ -1,0 +1,20 @@
+h2{
+    color: #999;
+}
+table tr{
+    width: 50%;
+}
+.aprovado{
+    background-color: green;
+    width: 90%;
+}
+.reprovado{
+    background-color: red;
+    width: 90%;
+}
+.nota{
+    background-color: rgb(1, 1, 121);
+    color: white;
+}
+
+

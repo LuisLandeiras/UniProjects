@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escola>
+    <aluno StudentNo="A12345">
+        <nome>Ana Silva</nome>
+        <exam1>15</exam1>
+        <exam2>17</exam2>
+    </aluno>
+    <aluno StudentNo="A54321">
+        <nome>Mário Fonseca</nome>
+        <exam1>11</exam1>
+        <exam2>7</exam2>
+    </aluno>
+    <aluno StudentNo="A44556">
+        <nome>António Abreu</nome>
+        <exam1>14</exam1>
+        <exam2>13</exam2>
+    </aluno>
+    <aluno StudentNo="A85734">
+        <nome>Amélia Lourenço</nome>
+        <exam1>8</exam1>
+        <exam2>12</exam2>
+    </aluno>
+    <aluno StudentNo="A33321">
+        <nome>Alice Guedes</nome>
+        <exam1>9</exam1>
+        <exam2>6</exam2>
+    </aluno>
+</escola>
